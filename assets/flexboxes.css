@@ -1,0 +1,30 @@
+/* 🧩 Two-column layout — elegant modern style */
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 2em;
+}
+
+.column {
+    flex: 1;
+    min-width: 280px;
+    background: #f9f5f1;
+    padding: 1.5em;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.column p {
+    color: #3c3c3c;
+    line-height: 1.6;
+    font-size: 1em;
+}

@@ -1,0 +1,38 @@
+/* 🧭 Navigation – modern and minimal */
+.vertical-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Button links */
+.vertical-buttons li a {
+    text-decoration: none;
+    background: #3d2b1f;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.8em 2em;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover animation */
+.vertical-buttons li a:hover {
+    background: #6a4e37;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Active state (optional) */
+.vertical-buttons li a.active {
+    background: #b08968;
+    color: #fff;
+}
